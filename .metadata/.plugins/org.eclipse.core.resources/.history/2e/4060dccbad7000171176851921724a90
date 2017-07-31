@@ -1,0 +1,5 @@
+package com.AE.springdemo.controller.test;
+
+public class ModelAttributeDemoController {
+
+}
