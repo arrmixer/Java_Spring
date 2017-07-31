@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Tue Jul 25 00:14:38 EDT 2017
-org.eclipse.jst.jee.server\:/binary\:/Users/Angel/.m2/repository/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE.jar=/Library/Tomcat/wtpwebapps/spring-mvc-model-attribute-demo/WEB-INF/lib/spring-web-4.3.4.RELEASE.jar
-org.eclipse.jst.jee.server\:spring-mvc-model-attribute-demo=/Library/Tomcat/wtpwebapps/spring-mvc-model-attribute-demo
