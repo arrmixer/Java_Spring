@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--  load the properties file: sport.properties -->
+<context:property-placeholder location="classpath:sport.properties"/>
+<!-- <bean/> definitions here -->
+<bean id="myCoach" class="com.AE.springdemo.TrackCoach">
+<!-- constructor bean/injection -->
+<constructor-arg ref="myFortuneService"></constructor-arg>
+</bean>
+<bean id="myCricketCoach" class="com.AE.springdemo.CricketCoach">
+<!-- make setter bean/injection Spring will call setFortue-->
+<property name="fortune" ref="myFortuneService"></property>
+<!-- inject literal values -->
+<property name="emailAddress" value="${foo.email}"></property>
+<property name="team" value="${foo.team}"></property>
+</bean>
+<!--  define bean for dependency -->
+<bean id="myFortuneService" class="com.AE.springdemo.HappyFortuneService"></bean>
+
+
+
+
+
+</beans>
