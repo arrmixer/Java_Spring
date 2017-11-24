@@ -4,6 +4,6 @@ The demos came from this Udemy course by Tim Buchalka and Bibhash Roy:
 https://www.udemy.com/java-spring-framework-masterclass/learn/v4/overview.
 
 UPDATE: 
-Also using great course from Udemy called Spring @ Hibernate for Beginners by Chad Darby:
+Also using great course from Udemy called Spring & Hibernate for Beginners by Chad Darby:
 https://www.udemy.com/spring-hibernate-tutorial/learn/v4/overview
  
